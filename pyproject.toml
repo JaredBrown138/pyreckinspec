@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyreckinspec"
+version = "0.1.0"
+description = "A Python Request Inspector and Web Tool Box"
+authors = ["Jared Brown"]
+license = "GPL v3.0"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.25.1"
+dearpygui = "^0.6.398"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

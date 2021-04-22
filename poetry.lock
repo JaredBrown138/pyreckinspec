@@ -1,0 +1,104 @@
+[[package]]
+name = "certifi"
+version = "2020.12.5"
+description = "Python package for providing Mozilla's CA Bundle."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "chardet"
+version = "4.0.0"
+description = "Universal encoding detector for Python 2 and 3"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[[package]]
+name = "dearpygui"
+version = "0.6.398"
+description = "DearPyGui: A simple Python GUI Toolkit"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
+name = "idna"
+version = "2.10"
+description = "Internationalized Domain Names in Applications (IDNA)"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+
+[[package]]
+name = "requests"
+version = "2.25.1"
+description = "Python HTTP for Humans."
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[package.dependencies]
+certifi = ">=2017.4.17"
+chardet = ">=3.0.2,<5"
+idna = ">=2.5,<3"
+urllib3 = ">=1.21.1,<1.27"
+
+[package.extras]
+security = ["pyOpenSSL (>=0.14)", "cryptography (>=1.3.4)"]
+socks = ["PySocks (>=1.5.6,!=1.5.7)", "win-inet-pton"]
+
+[[package]]
+name = "urllib3"
+version = "1.26.4"
+description = "HTTP library with thread-safe connection pooling, file post, and more."
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4"
+
+[package.extras]
+secure = ["pyOpenSSL (>=0.14)", "cryptography (>=1.3.4)", "idna (>=2.0.0)", "certifi", "ipaddress"]
+socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
+brotli = ["brotlipy (>=0.6.0)"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.7"
+content-hash = "2c21db5ad8464efde9c99450c828012fa48105bb2ce53f8b132b79569a303562"
+
+[metadata.files]
+certifi = [
+    {file = "certifi-2020.12.5-py2.py3-none-any.whl", hash = "sha256:719a74fb9e33b9bd44cc7f3a8d94bc35e4049deebe19ba7d8e108280cfd59830"},
+    {file = "certifi-2020.12.5.tar.gz", hash = "sha256:1a4995114262bffbc2413b159f2a1a480c969de6e6eb13ee966d470af86af59c"},
+]
+chardet = [
+    {file = "chardet-4.0.0-py2.py3-none-any.whl", hash = "sha256:f864054d66fd9118f2e67044ac8981a54775ec5b67aed0441892edb553d21da5"},
+    {file = "chardet-4.0.0.tar.gz", hash = "sha256:0d6f53a15db4120f2b08c94f11e7d93d2c911ee118b6b30a04ec3ee8310179fa"},
+]
+dearpygui = [
+    {file = "dearpygui-0.6.398-cp36-cp36m-macosx_10_6_x86_64.whl", hash = "sha256:8f1410fdd7d95ec29295cbca85eb2771a1fc42846643411182f9fb7049f6cb1a"},
+    {file = "dearpygui-0.6.398-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:2079975da5a9faee7299cf34b14553b6112527ea19543bcd60325918d6d11779"},
+    {file = "dearpygui-0.6.398-cp36-cp36m-win_amd64.whl", hash = "sha256:1bbe99703e029816b37997c77268267bb32fc5520ca39d862df981b65e6258fe"},
+    {file = "dearpygui-0.6.398-cp37-cp37m-linux_armv7l.whl", hash = "sha256:da9989e3118f8c8fb91927aa92dfde40ada63295dc0e04d9e4dcc6c13aeee5da"},
+    {file = "dearpygui-0.6.398-cp37-cp37m-macosx_10_6_x86_64.whl", hash = "sha256:d1b95fb829cb13b6d804446bc1752689486906f887fc3fa5b33a6af77cdc103b"},
+    {file = "dearpygui-0.6.398-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:48db77b4f8bad5ed820c7ff58d0823cb1b1334979f63faf5750b46a3044a54df"},
+    {file = "dearpygui-0.6.398-cp37-cp37m-win_amd64.whl", hash = "sha256:3f5d2348c7219750b955b17b4c4c58f9fdaa2dd6d17fc850fc231730afa4c495"},
+    {file = "dearpygui-0.6.398-cp38-cp38-macosx_10_6_x86_64.whl", hash = "sha256:2e85373a39d7bc8e4600fd355eac4ae3a3668eb730c6c534b6d3dfa6086697a1"},
+    {file = "dearpygui-0.6.398-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:5f03d69d0a2488b9a49a4a92a500060e30c56e383b978bb43c77e54809deb58c"},
+    {file = "dearpygui-0.6.398-cp38-cp38-win_amd64.whl", hash = "sha256:47ce25ecb87e5318d968eda4ce0d6eca22af2791d7cdfa900290d57bfffc037f"},
+    {file = "dearpygui-0.6.398-cp39-cp39-macosx_10_6_x86_64.whl", hash = "sha256:a13e21c7193d2cd59cab6e9bb27948607dbf339ffd696a2e0b500f6f34a079d6"},
+    {file = "dearpygui-0.6.398-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:a0599725b4dd357cc670ffae54ff0687d185304143bdfa485472d96ab368bf64"},
+    {file = "dearpygui-0.6.398-cp39-cp39-win_amd64.whl", hash = "sha256:7ebca7952afb2ca9a51da378f6f14ca82679fff9655f72ccb9f84a5c48be6137"},
+]
+idna = [
+    {file = "idna-2.10-py2.py3-none-any.whl", hash = "sha256:b97d804b1e9b523befed77c48dacec60e6dcb0b5391d57af6a65a312a90648c0"},
+    {file = "idna-2.10.tar.gz", hash = "sha256:b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6"},
+]
+requests = [
+    {file = "requests-2.25.1-py2.py3-none-any.whl", hash = "sha256:c210084e36a42ae6b9219e00e48287def368a26d03a048ddad7bfee44f75871e"},
+    {file = "requests-2.25.1.tar.gz", hash = "sha256:27973dd4a904a4f13b263a19c866c13b92a39ed1c964655f025f3f8d3d75b804"},
+]
+urllib3 = [
+    {file = "urllib3-1.26.4-py2.py3-none-any.whl", hash = "sha256:2f4da4594db7e1e110a944bb1b551fdf4e6c136ad42e4234131391e21eb5b0df"},
+    {file = "urllib3-1.26.4.tar.gz", hash = "sha256:e7b021f7241115872f92f43c6508082facffbd1c048e3c6e2bb9c2a157e28937"},
+]
